@@ -1,0 +1,14 @@
+.card-block {
+  padding: 200px 0;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-list_item {
+  width: 30.3333%;
+}
