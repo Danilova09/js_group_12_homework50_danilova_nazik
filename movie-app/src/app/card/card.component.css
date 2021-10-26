@@ -1,0 +1,24 @@
+.card {
+  background: rgb(24, 24, 24);
+  margin: 20px;
+  box-shadow: 6px 8px 18px 12px rgba(0,0,0,0.8);
+  cursor: pointer;
+  border-radius: 5px;
+  height: 100%;
+}
+.card-img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+.card-info {
+  padding: 15px;
+}
+.card-info_title {
+  color: #fff;
+  font-size: 19px;
+}
+.card-info_desc {
+  padding: 10px 0;
+  color: #a3a3a3;
+}
