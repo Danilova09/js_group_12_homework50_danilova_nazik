@@ -1,1 +1,32 @@
-/* You can add global styles to this file, and also import other style files */
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: rgb(41, 41, 41);
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.logo {
+  font-size: 30px;
+  color: #8F39E1FF;
+  font-family: "Sen";
+}
+
+.logo a {
+  text-decoration: none;
+}
+
