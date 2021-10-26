@@ -1,0 +1,52 @@
+.header {
+  background-color: black;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  justify-content: right;
+}
+
+.main-nav_list {
+  display: flex;
+  list-style: none;
+  font-family: "Sen";
+}
+
+.main-nav_item {
+  margin-left: 20px;
+  text-transform: uppercase;
+}
+
+.main-nav_link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 14px;
+}
+
+.profile-block {
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.profile_img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.profile-block_title {
+  margin-left: 10px;
+  font-size: 14px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.profile-icon {
+  margin-left: 8px;
+}
